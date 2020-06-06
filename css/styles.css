@@ -14,6 +14,12 @@ font-size: 3.5rem;
 line-height: 1.5;
 }
 
+h2{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 h3{
   font-weight: bold;
   font-size: 1.5rem;
@@ -95,4 +101,31 @@ i have to use font-weight
 
 .icon:hover{
   color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image{
+  border-radius: 100%;
+  padding: 20px;
+  width: 10%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Press */
+#press{
+  padding-bottom: 3%;
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
 }
