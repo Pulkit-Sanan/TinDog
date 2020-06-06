@@ -12,9 +12,16 @@ font-family: 'Montserrat', sans-serif;
 font-weight: 900;
 font-size: 3.5rem;
 line-height: 1.5;
-
 }
 
+h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p{
+  color: #8f8f8f;
+}
 /*
 According to lecture it should be the code but!!!!!!
 the code was not preferred over the bootstrap code
@@ -39,6 +46,7 @@ i have to use font-weight
 
 .container-fluid{
   padding: 3% 15%;
+  margin: 0;
 }
 
 /* Navigation Bar */
@@ -56,7 +64,7 @@ i have to use font-weight
 }
 .nav-link{
   font-size: 1.2rem;
-  font-weight: lighter;
+  font-weight: 200;
 }
 /* Download button */
 .download-button{
@@ -67,4 +75,24 @@ i have to use font-weight
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* features */
+#features{
+  padding: 7% 14%;
+  line-height: 1.5rem;
+}
+
+.feature-box{
+  padding: 5%;
+  text-align: center;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
 }
